@@ -1,0 +1,42 @@
+.auth {
+  height: 100vh;
+
+  &_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/3660204/pexels-photo-3660204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+
+    &_form {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      padding: 90px;
+      background-color: white;
+
+      h6 {
+        margin: 0;
+      }
+
+      .form_input {
+        height: 80px;
+        width: 350px;
+
+        input {
+          width: 100%;
+        }
+
+        p {
+          color: red;
+        }
+
+        .input_gender {
+          width: 20px;
+        }
+      }
+    }
+  }
+}

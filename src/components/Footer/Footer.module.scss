@@ -1,0 +1,15 @@
+.footer {
+  &_container {
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+    .ul {
+      list-style: none;
+      text-align: start;
+      li {
+        padding-top: 20px;
+      }
+    }
+  }
+}
+

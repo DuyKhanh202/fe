@@ -1,0 +1,54 @@
+.carousel {
+  &_container {
+    position: relative;
+    overflow: hidden;
+
+    &_bg {
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("https://cdnmedia.webthethao.vn/uploads/tinh-nguyen-vien-cau-long-1.jpg");
+      filter: blur(3px);
+    }
+
+    &_player {
+      height: 100%;
+      position: absolute;
+      top: 30%;
+      left: 55%;
+
+      @media (max-width: 767px) {
+        display: none;
+      }
+
+      img {
+        height: 70%;
+      }
+    }
+
+    &_search {
+      height: 100%;
+      position: absolute;
+      top: 30%;
+      left: 20%;
+
+      @media (max-width: 767px) {
+        top: 30%;
+        left: 4%;
+      }
+
+      &_container {
+        background-color: white;
+        padding: 50px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+        @media (max-width: 767px) {
+          padding: 30px;
+        }
+      }
+    }
+  }
+}
